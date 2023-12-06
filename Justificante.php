@@ -78,7 +78,7 @@ ob_start();
 $html=ob_get_clean();
 //echo $html;
 
-require_once "../libreria/dompdf/autoload.inc.php";
+require_once "libreria/dompdf/autoload.inc.php";
 use Dompdf\Dompdf;
 $dompdf = new Dompdf();
 
