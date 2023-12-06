@@ -57,12 +57,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <div class="mb-3">
                   <label for="tipoo" class="form-label">Tipos de usuario</label>
                   <input type="text"
-                    class="form-control"  name="tipoo" id="tipoo" aria-describedby="helpId" placeholder="Estudiante  Docente  Administrativo">
+                    class="form-control"  name="tipoo" id="tipoo" aria-describedby="helpId" placeholder="Escriba alguno de los siguientes: Estudiante  Docente  Administrativo">
                 </div>
                 <div class="mb-3">
                   <label for="citaa" class="form-label">Tipos de cita</label>
                   <input type="text"
-                    class="form-control" name="citaa" id="citaa" aria-describedby="helpId" placeholder="Individual  Grupal  Equipo">
+                    class="form-control" name="citaa" id="citaa" aria-describedby="helpId" placeholder="Escriba alguno de los siguientes: Individual  Grupal  Equipo">
                 </div>
 <div class="mb-3">
   <label for="dia" class="form-label">Día</label>
@@ -83,7 +83,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="mb-3">
                   <label for="justificante" class="form-label">Estatus</label>
                   <input type="text"
-                    class="form-control" name="justificante" id="justificante" aria-describedby="helpId" placeholder="Escriba CONFIRMADA">
+                    class="form-control" name="justificante" id="justificante" aria-describedby="helpId" placeholder="Escriba CONFIRMO">
                 </div>
     <center><p style="color: red;"><u>**RECUERDE QUE DEBE DE COMPLETAR TODOS LOS CAMPOS PARA REGISTRAR CON EXITO SU CITA**</u></p></center>
     <button type="submit" class="btn btn-success">Registrar de nuevo la cita</button>
