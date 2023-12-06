@@ -1,5 +1,5 @@
 <?php
-include("../db.php");  
+include("db.php");  
 $sentenciaSQL=$conexion->prepare("SELECT * FROM citas");
 $sentenciaSQL->execute();
 $citas=$sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
