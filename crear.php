@@ -47,12 +47,12 @@ if ($stmt->execute()) {
 <div class="mb-3">
                   <label for="tipoo" class="form-label">Tipos de usuario</label>
                   <input type="text"
-                    class="form-control" name="tipoo" id="tipoo" aria-describedby="helpId" placeholder="Estudiante  Docente  Administrativo">
+                    class="form-control" name="tipoo" id="tipoo" aria-describedby="helpId" placeholder="Escriba alguno de los siguientes: Estudiante  Docente  Administrativo">
                 </div>
                 <div class="mb-3">
                   <label for="citaa" class="form-label">Tipos de cita</label>
                   <input type="text"
-                    class="form-control" name="citaa" id="citaa" aria-describedby="helpId" placeholder="Individual  Grupal  Equipo">
+                    class="form-control" name="citaa" id="citaa" aria-describedby="helpId" placeholder="Escriba alguno de los siguientes:Individual  Grupal  Equipo">
                 </div>
 <div class="mb-3">
   <label for="dia" class="form-label">Día</label>
@@ -72,7 +72,7 @@ if ($stmt->execute()) {
     </select></div>
     <div class="mb-3">
   <label for="estatus" class="form-label">Estatus</label>
-  <input type="text" class="form-control" name="estatus" id="estatus" aria-describedby="helpId" placeholder="Confirme la cita">
+  <input type="text" class="form-control" name="estatus" id="estatus" aria-describedby="helpId" placeholder="Confirme la cita escribiendo CONFIRMO">
 </div>
     <button type="submit" class="btn btn-success">Registrar cita</button>
     <a name="" id="" class="btn btn-primary" href="index.php" role="button">Cancelar/Regresar</a>
