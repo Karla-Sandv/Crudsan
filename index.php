@@ -1,7 +1,7 @@
 
 <?php
 include("cabecera.php");
-include("../db.php");
+include("db.php");
 ?>
 
 
