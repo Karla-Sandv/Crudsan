@@ -2,7 +2,7 @@
 ob_start();
 ?>
 <?php
-include("../db.php");
+include("db.php");
 include("cabecera.php");
 if(isset($_GET['nombre'])) {
     $nombre = $_GET['nombre'];
